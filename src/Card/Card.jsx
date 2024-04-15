@@ -1,11 +1,11 @@
-import "./card.css"
+import sytles from "./card.module.css"
 
 function Card(){
     return(
-        <div className="card">
-            <img alt="profile picture" className="card-image" src="https://via.placeholder.com/150"></img>
-            <h2 className="card-title">My Name</h2>
-            <p className="card-text">This as a card.</p>
+        <div className={sytles.card}>
+            <img alt="profile picture" className={sytles.card-image} src="https://via.placeholder.com/150"></img>
+            <h2 className={sytles.card-title}>My Name</h2>
+            <p className={sytles.card-text}>This as a card.</p>
         </div>
     );
 }
