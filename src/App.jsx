@@ -1,8 +1,11 @@
-import Header from "./Header"
+import Button from "./Button/Button"
 
 function App() {
   return (
-    <Header />
+    <>
+      <Button/>
+    </>
+    
   )
 }
 
